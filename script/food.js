@@ -1,7 +1,7 @@
 
 
 
-async function getData(){
+let getData = async()=>{
 
     let food = document.getElementById("search").value;
     
@@ -19,7 +19,7 @@ async function getData(){
 
 }
 
-function append(data){
+let append= (data)=>{
 
 
 
